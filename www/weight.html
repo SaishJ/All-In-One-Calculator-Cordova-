@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wei</title>
+        <meat name="viewport" content="width=device-width" >
+        <link rel="stylesheet" href="css/weight.css" >
+    </head>
+    <body>
+        <div class="main">
+            <h2>Weight Converter</h2><br><br>
+            <label>Kilograms</label>
+            <input id="inputKilograms" class="input border" placeholder="Kilograms" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+            <br>
+            <label>Grams</label>
+            <input id="inputGrams" class="input border" placeholder="Grams" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+            <br>
+            <label>Pounds</label>
+            <input id="inputPounds" class="input border" placeholder="Pounds" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+            <br>
+            <label>Ounces</label>
+            <input id="inputOunces" class="input border" placeholder="Ounces" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+            <br>
+            <label>Stones</label>
+            <input id="inputStones" class="input border" placeholder="Stones" oninput="weightConverter(this.id,this.value)" onchange="weightConverter(this.id,this.value)">
+        </div>
+        <script src="js/weight.js"></script>
+    </body>
+</html>

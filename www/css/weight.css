@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #091921;
+    font-family: 'Poppins', sans-serif;
+    text-color: white;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.input{
+    padding: 9px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+.border{
+    border: 1px solid #ccc;
+}

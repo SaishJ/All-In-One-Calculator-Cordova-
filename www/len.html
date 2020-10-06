@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Len</title>
+        <meat name="viewport" content="width=device-width" >
+        <link rel="stylesheet" href="css/len.css" >
+    </head>
+    <body>
+        <div class="main">
+            <h1>Length</h1><br><br>
+            <label>Meters</label><br>
+            <input id="inputMeters" class="input border" placeholder="Meters" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+            <br>
+            <label>Kilometers</label><br>
+            <input id="inputKilometers" class="input border" placeholder="Kilometer" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+            <br>
+            <label>Inches</label><br>
+            <input id="inputInches" class="input border" placeholder="Inch" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+            <br>
+            <label>Feet</label><br>
+            <input id="inputFeet" class="input border" placeholder="Feet" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+            <br>
+            <label>Miles</label><br>
+            <input id="inputMiles" class="input border" placeholder="Miles" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+        </div>
+        <script src="js/len.js"></script>
+    </body>
+</html>

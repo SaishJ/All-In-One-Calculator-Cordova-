@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Len</title>
+        <meat name="viewport" content="width=device-width" >
+        <link rel="stylesheet" href="css/temp.css" >
+    </head>
+    <body>
+        <div class="main">
+            <h1>Temprature</h1><br><br>
+            <label>Celsius</label><br>
+            <input id="inputCelsius" class="input border" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)"><br>
+            <label>Fahrenheit</label><br>
+            <input id="inputFahrenheit" class="input border" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)"><br>
+            <label>Kelvin</label><br>
+            <input id="inputKelvin" class="input border" min="0" placeholder="Kelvin" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+        </div>
+        <script src="js/temp.js"></script>
+    </body>
+</html>
